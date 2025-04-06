@@ -2,10 +2,11 @@
   "name": "un-gran-paso-para-xavi",
   "version": "1.0.0",
   "description": "ProgramacionII",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
-    "tsc": "tsc",
-    "dev": "ts-node-dev app.ts",
+    "build": "tsc",
+    "start": "node app.js",
+    "dev": "ts-node app.ts",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
